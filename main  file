@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CampusNet - Connect with Your Campus</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- 🌐 Navbar -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold text-indigo-600">CampusNet</h1>
+      
+      <!-- Desktop Navigation -->
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#" class="hover:text-indigo-600">Home</a>
+        <a href="#" class="hover:text-indigo-600">Events</a>
+        <a href="#" class="hover:text-indigo-600">Groups</a>
+        <a href="#" class="hover:text-indigo-600">Contact</a>
+      </nav>
+
+      <!-- Mobile Menu Icon -->
+      <button class="md:hidden text-gray-700 text-xl">☰</button>
+    </div>
+  </header>
+
+  <!-- 🎯 Hero Section -->
+  <section class="bg-pink-100 text-center py-20 px-4">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">Join Your Campus Community Today!</h2>
+    <p class="text-lg max-w-xl mx-auto mb-6 text-gray-700">
+      Find events, meet students, and get involved with what's happening around your campus.
+    </p>
+    <button class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-lg">
+      Get Started
+    </button>
+  </section>
+
+  <!-- 🔍 Feature Highlights -->
+  <section class="py-16 px-4 max-w-7xl mx-auto space-y-16">
+
+    <!-- Feature 1 -->
+    <div class="grid md:grid-cols-2 items-center gap-8">
+      <div class="bg-gray-200 h-64 rounded-lg"></div>
+      <div>
+        <h3 class="text-2xl font-semibold mb-2">Connect with Groups</h3>
+        <p class="text-gray-600">Join groups based on your interests and connect with like-minded students on campus.</p>
+      </div>
+    </div>
+
+    <!-- Feature 2 (Image on Right) -->
+    <div class="grid md:grid-cols-2 items-center gap-8 md:flex-row-reverse">
+      <div class="bg-gray-200 h-64 rounded-lg"></div>
+      <div>
+        <h3 class="text-2xl font-semibold mb-2">Discover Campus Events</h3>
+        <p class="text-gray-600">Never miss out on exciting events again. Find what's happening near you easily.</p>
+      </div>
+    </div>
+
+    <!-- Feature 3 -->
+    <div class="grid md:grid-cols-2 items-center gap-8">
+      <div class="bg-gray-200 h-64 rounded-lg"></div>
+      <div>
+        <h3 class="text-2xl font-semibold mb-2">Build Your Network</h3>
+        <p class="text-gray-600">Meet students from different departments and build connections for future collaborations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📅 Upcoming Events -->
+  <section class="bg-gray-50 py-16 px-4">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex justify-between items-center mb-8">
+        <h2 class="text-3xl font-bold">Upcoming Events</h2>
+        <a href="#" class="text-indigo-600 hover:underline">View All</a>
+      </div>
+
+      <!-- Event Cards -->
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white h-60 rounded-lg shadow-md"></div>
+        <div class="bg-white h-60 rounded-lg shadow-md"></div>
+        <div class="bg-white h-60 rounded-lg shadow-md"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📬 Contact Section -->
+  <section class="py-16 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">Get in Touch</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-indigo-100 p-6 rounded-lg shadow font-semibold">📧 Mail</div>
+        <div class="bg-indigo-100 p-6 rounded-lg shadow font-semibold">📞 Phone</div>
+        <div class="bg-indigo-100 p-6 rounded-lg shadow font-semibold">📍 Location</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔚 Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p>&copy; 2025 CampusNet. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
