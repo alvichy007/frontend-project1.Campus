@@ -8,7 +8,7 @@
 </head>
 <body class="font-sans text-gray-800">
 
-  <!-- 🌐 Navbar -->
+  
   <header class="bg-white shadow">
     <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
       <h1 class="text-xl font-bold text-indigo-600">CampusNet</h1>
@@ -26,7 +26,7 @@
     </div>
   </header>
 
-  <!-- 🎯 Hero Section -->
+  
   <section class="bg-pink-100 text-center py-20 px-4">
     <h2 class="text-4xl md:text-5xl font-bold mb-4">Join Your Campus Community Today!</h2>
     <p class="text-lg max-w-xl mx-auto mb-6 text-gray-700">
@@ -37,7 +37,7 @@
     </button>
   </section>
 
-  <!-- 🔍 Feature Highlights -->
+  
   <section class="py-16 px-4 max-w-7xl mx-auto space-y-16">
 
     <!-- Feature 1 -->
@@ -68,7 +68,6 @@
     </div>
   </section>
 
-  <!-- 📅 Upcoming Events -->
   <section class="bg-gray-50 py-16 px-4">
     <div class="max-w-7xl mx-auto">
       <div class="flex justify-between items-center mb-8">
@@ -85,7 +84,7 @@
     </div>
   </section>
 
-  <!-- 📬 Contact Section -->
+  
   <section class="py-16 px-4">
     <div class="max-w-4xl mx-auto text-center">
       <h2 class="text-3xl font-bold mb-8">Get in Touch</h2>
@@ -97,7 +96,7 @@
     </div>
   </section>
 
-  <!-- 🔚 Footer -->
+  
   <footer class="bg-gray-800 text-white text-center py-6">
     <p>&copy; 2025 CampusNet. All rights reserved.</p>
   </footer>
